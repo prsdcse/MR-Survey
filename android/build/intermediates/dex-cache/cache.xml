@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8afe49c8746436c3ee0a2ce19a9e94141dc6fc11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_fe477d88eafe908d82fa91e4e310af220f15bc69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_d854285b71289f6e7e665f14a8fe242283739fa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\org.nanohttpd\nanohttpd\2.2.0\73a02117620b6cc7683a1ed6ae24c2f36e2a715\nanohttpd-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\nanohttpd-2.2.0_141a18acba620afbd5302209093fbbb1ef0a2356.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_7bf17207529e333810f009f88a383de1426fe9ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_c8c87c66b936fd948c40e04d2ae802e41565f2da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_19f3cd1ff328652c102101ccb4d726ef89d771b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_2c5705cf3178948af4bda26adbac770eac2f7331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_4c90882543f3732793ae5f93aa594dcd7f39a131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_f226d5faadd6356f4cd53b95f6a466ab44465063.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\surveypremium\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\surveypremium-react-native-vector-icons-unspecified_2c2978fd904af8f4de46e4919235454a8e6a1c2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_d36ee5b3c8942da326ec6905c7fda23a81b0c972.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_4c6658dc81d0ebde0dceda1444a9efcb72d37b2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.52.0_1ba3ea2e349677ba92a584837c54ecf907eb9aa1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_7db6988c256afde54e4f984bac77280504817913.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_c9f1dba23550b9842757f481bbe7e007603934cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_ded07562a1341845f4308f0dc867fd95ca60dae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_0e6d063414b2645d735539a3ebbd03040a40acef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\surveypremium\react-native-svg\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="040acc0e13d13ecb06f85cd84474d2df0f54d857">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\surveypremium-react-native-svg-unspecified_5e277e22b846a41b06babd4f1c850019234d2b9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_47ea3350cb220b3e3c14c1ed1b255d8a146f4b53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_1f8379490b0cda7193e4570bed18609e7ee516e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_950f6c01db5c39e63a4d5fbbb528dc004165caba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\surveypremium\realm\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="611b3235112b6ada921100ea5fd2f6c4f4e9c1b9">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\surveypremium-realm-unspecified_f622dc1d58512056239bd1061c797adca218b3b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\prsdc\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_ac0c6a21a9e994b85b48dfbcf63828597de32b8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\survey\surveypremium\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\survey\surveypremium\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_745a4412eddd7ac6920f18b3f178212f2286c915.jar" />
+    </item>
+
+</items>
