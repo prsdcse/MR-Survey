@@ -15,6 +15,8 @@ import AddIndividualScreen from './app/containers/AddIndividualScreen';
 import ViewClusterScreen from './app/containers/ViewClusterScreen';
 import ViewHouseholdDetails from './app/containers/ViewHouseholdDetails';
 
+import { connect } from 'react-redux';
+
 
 const App = StackNavigator({
   Intro: { screen: HomeScreen },
@@ -26,8 +28,22 @@ const App = StackNavigator({
   ViewHouseholdDetails: { screen: ViewHouseholdDetails }
 });
 
-export default class MainView extends Component {
+class MainView extends Component {
   render() {
     return (<App />)
   }
 }
+
+function mapStatetoProps(state){
+  return {
+
+  }
+}
+
+function mapDispatchtoProps(dispatch){
+  return {
+
+  }
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(MainView);
