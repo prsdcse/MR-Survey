@@ -4,17 +4,14 @@ import {ProfileMenuHeader} from '../../components';
 
 export default class DashboardScreen extends React.Component
 {
-  static navigationOptions = {
-    title: 'Survey Dashboard'
-  };
+  constructor(props){
+    super(props);
+  }
 
-  state = {
-    selectedTab: 'Dashboard'
-  };
-
-  render()
+  render() 
   {
-    return (
+    const { dispatch } = this.props.navigation;
+    return (      
       <View style={{backgroundColor: '#F2F5FB', flex: 1,}}>
         <ProfileMenuHeader
             headingIcon="SD"
@@ -25,9 +22,20 @@ export default class DashboardScreen extends React.Component
             icon4Title="Completed Survey"
             icon5Title="Other Details"
             icon6Title="Submit Census"
-            navigation={this.props.navigation}
+            navigation={dispatch}
           />
       </View>
     );
   }
 }
+
+const mapStatetoProps = state => ({});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(DashboardScreen);

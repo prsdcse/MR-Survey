@@ -1,5 +1,5 @@
-import { createStore, applyMiddleware, compose  } from 'redux'
-import { createLogger } from 'redux-logger'
+import { createStore, applyMiddleware, compose  } from 'redux';
+import { createLogger } from 'redux-logger';
 import reducers from '../reducers';
 import * as storage from 'redux-storage';
 import createEngine from 'redux-storage-engine-reactnativeasyncstorage';
@@ -8,6 +8,8 @@ import sagas from '../sagas';
 import devTools from 'remote-redux-devtools';
 
 const isDebuggingInChrome = __DEV__ && !!window.navigator.userAgent;
+
+console.log(isDebuggingInChrome);
 
 const logger = createLogger({
   predicate: (getState, action) => isDebuggingInChrome,

@@ -16,7 +16,7 @@ const ProfileMenuHeader = props => {
     icon6Title,
   } = props;
 
-  const { navigate } = props.navigation;
+  const { dispatch } = props.dispatch;
   return (
     <View>
       <View style={styles.hero}>
@@ -31,7 +31,7 @@ const ProfileMenuHeader = props => {
             name='barcode'
             size={25}
           />
-          <TouchableHighlight underlayColor={'transparent'} onPress={() => navigate('HouseHold')}>
+          <TouchableHighlight underlayColor={'transparent'} onPress={() => dispatch({type: 'gotoHouseHold'})}>
             <Text style={styles.iconTitle}>{icon1Title}</Text>
           </TouchableHighlight>
         </View>
@@ -42,7 +42,7 @@ const ProfileMenuHeader = props => {
             name='credit-card-alt'
             size={25}
           />
-          <TouchableHighlight underlayColor={'transparent'} onPress={() => navigate('ViewClusterScreen')}>
+          <TouchableHighlight underlayColor={'transparent'} onPress={() => dispatch({type: 'ViewClusterScreen'})}>
             <Text style={styles.iconTitle}>{icon2Title}</Text>
           </TouchableHighlight>
         </View>
