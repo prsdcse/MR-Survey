@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import MainView from './App';
+import App from './app';
 
-AppRegistry.registerComponent('surveypremium', () => MainView);
+AppRegistry.registerComponent('surveypremium', () => App);

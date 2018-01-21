@@ -14,37 +14,9 @@ export default class HouseHoldScreen extends React.Component {
       HouseholdStatus6: false
     }
   }
-  static navigationOptions = ({ navigation }) => {
-    const { navigate } = navigation;
-    return {
-      title: 'HouseHold Information',
-      headerRight: (
-        <Button
-          buttonStyle={{ width: 80, height: 35, backgroundColor: '#1D8348' }}
-          fontSize={12}
-          title='Submit'
-          onPress={() => navigate('Dashboard')}
-        />
-      )
-    }
-  };
-
-  /* componentDidMount(props) {
-    // We can only set the function after the component has been initialized
-    this.props.navigation.setParams({ performOnSubmit: this.performOnSubmit(props) });
-} */
-
-  state = {
-    selectedTab: 'HouseHold'
-  };
-
-  /* performOnSubmit(props) {
-    const { navigate } = this.props.navigation;
-    navigate('Dashboard');
-  } */
 
   render() {
-    const { navigate } = this.props.navigation;
+    const { dispatch } = this.props.navigation;
     return (
       <View style={styles.container}>
         <ScrollView style={{ backgroundColor: 'white' }}>
@@ -184,7 +156,7 @@ export default class HouseHoldScreen extends React.Component {
               buttonStyle={{ marginTop: 55, marginBottom: 30 }}
               title='Add Individual'
               onPress={() =>
-                navigate('AddIndividual')
+                dispatch({type: 'gotoAddIndividual'})
               }
             />
           }
@@ -217,3 +189,14 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
 });
+
+const mapStatetoProps = state => ({});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(HouseHoldScreen);

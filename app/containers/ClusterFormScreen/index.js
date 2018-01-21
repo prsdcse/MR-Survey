@@ -4,13 +4,13 @@ import {FormLogin, Button, CheckBox} from '../../components';
 
 export default class ClusterFormScreen extends React.Component
 {
-  static navigationOptions = {
-    title: ''
-  };
+  constructor(props){
+    super(props);
+  }
 
   render ()
   {
-    const { navigate } = this.props.navigation;
+    const { dispatch } = this.props.dispatch;
     return (
     <ScrollView style={{backgroundColor: 'white', paddingTop: 40, }}>
       <FormLogin
@@ -24,7 +24,7 @@ export default class ClusterFormScreen extends React.Component
           buttonStyle={{marginTop: 75, marginBottom: 30 }}
           title='Start the Survey'
           onPress={() =>
-            navigate('Dashboard')
+            dispatch({type: 'gotoDashboard'})
           }
         />          
       </View>
@@ -32,3 +32,14 @@ export default class ClusterFormScreen extends React.Component
     );
   }
 }
+
+const mapStatetoProps = state => ({});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(ClusterFormScreen);

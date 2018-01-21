@@ -15,13 +15,6 @@ export default class AddIndividualScreen extends React.Component {
         }
     }
 
-    static navigationOptions = {
-        title: 'Add Individual'
-    };
-
-    state = {
-        selectedTab: 'AddIndividual'
-    }
     async openDatePicker() {
         try {
             const { action, year, month, day } = await DatePickerAndroid.open({
@@ -36,7 +29,7 @@ export default class AddIndividualScreen extends React.Component {
         }
     }
     render() {
-        const { navigate } = this.props.navigation;
+        const { dispatch } = this.props.navigation;
         return (
             <View style={styles.container}>
                 <ScrollView style={{ backgroundColor: 'white' }}>
@@ -107,7 +100,7 @@ export default class AddIndividualScreen extends React.Component {
                     <Button
                         buttonStyle={{ marginTop: 30, marginBottom: 30, backgroundColor: '#8795A8' }}
                         title='Add'
-                        onPress={() => navigate('HouseHold')}
+                        onPress={() => dispatch({type: 'gotoHouseHold'})}
                     />
 
                 </ScrollView>
@@ -132,3 +125,14 @@ const styles = StyleSheet.create({
         marginTop: 15,
     }
 });
+
+const mapStatetoProps = state => ({});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(AddIndividualScreen);

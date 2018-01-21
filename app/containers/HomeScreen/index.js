@@ -1,18 +1,20 @@
 import React from 'react'
 import {StyleSheet, View, StatusBar} from 'react-native';
 import {Button, MenuHeader} from '../../components';
+import { connect } from 'react-redux';
 
-export default class HomeScreen extends React.Component
+class HomeScreen extends React.Component
 {
-  static navigationOptions = {
-    header: null
-  };
-
-  state = {};
+  constructor(props){
+    super(props);
+  }
 
   render()
   {
-  	const { navigate } = this.props.navigation;
+    const { dispatch } = this.props.navigation;
+    const { appStore } = this.props;
+
+    console.warn('App Store', appStore);
     return (
       <View style={styles.header}>
         <StatusBar
@@ -29,7 +31,7 @@ export default class HomeScreen extends React.Component
 	            buttonStyle={styles.button1}
 	            title="Goto Cluster"
 	            onPress={() =>
-	              navigate('SignIn')
+	              dispatch({ type: 'gotoCuster' })
 	            }
 	          />
 	      </View>
@@ -60,3 +62,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#2779f4',
   },
 });
+
+const mapStatetoProps = state => ({
+  appStore: state
+});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(HomeScreen);

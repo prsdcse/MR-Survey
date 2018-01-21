@@ -15,13 +15,6 @@ export default class ViewHouseholdDetails extends React.Component {
 
     }
 
-    static navigationOptions = {
-        title: 'Household details view'
-    };
-
-    state = {
-        selectedTab: 'ViewHouseholdDetails'
-    }
     render() {
         return (
             <View style={styles.container}>
@@ -58,3 +51,14 @@ const styles = StyleSheet.create({
         flex: 1,
     }
 });
+
+const mapStatetoProps = state => ({});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(ViewHouseholdDetails);

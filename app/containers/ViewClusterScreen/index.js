@@ -15,20 +15,13 @@ export default class ViewClusterScreen extends React.Component {
 
     }
 
-    static navigationOptions = {
-        title: 'Cluster Details View '
-    };
-
-    state = {
-        selectedTab: 'ViewClusterScreen'
-    }
     render() {
-        const { navigate } = this.props.navigation;
+        const { dispatch } = this.props.navigation;
         return (
             <View style={styles.container}>
                 <ScrollView style={{ backgroundColor: 'white' }}>
                     <Card
-                        onPress={() => navigate('ViewHouseholdDetails')}
+                        onPress={() => dispatch({type: 'ViewHouseholdDetails'})}
                         title='David, Hollins'
                         subTitle='Household : 123'
                         number='03'
@@ -56,3 +49,14 @@ const styles = StyleSheet.create({
         flex: 1,
     }
 });
+
+const mapStatetoProps = state => ({});
+
+function mapDispatchtoProps(dispatch){
+  return {
+    dispatch
+  }
+
+}
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(ViewClusterScreen);
